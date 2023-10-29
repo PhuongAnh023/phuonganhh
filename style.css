@@ -1,0 +1,64 @@
+div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.rowhead {
+    border-bottom: medium black solid;
+}
+.row {
+    border-bottom: medium black solid;
+}
+.row:hover {
+    background-color: rgb(161, 237, 237);
+}
+.rowhead div {
+    display:inline;
+    margin-right: 50px;
+}
+.rowhead div:hover{
+    background-color: rgb(219, 122, 87);
+}
+.row div {
+    display:inline;
+    margin-right: 50px;
+}
+.product {
+    margin-left: 50px;
+}
+.price {
+    margin-left: 9px;
+}
+.Total_header{
+    margin-left: 35px;
+}
+#col_header>.Total_header{
+    margin-left: 50px;
+}
+.quantity_header{
+    margin-left: 15px;
+}
+.rowhead {
+    background-color: gray;
+}
+input {
+    padding: 8px;
+    width: 80px;
+    height: 15px;
+}
+.delete {
+    border: solid black thin;
+    padding: 10px 10px;
+    background-color: gray;
+}
+.delete:hover{
+    background-color: rgb(124, 239, 239);
+}
+.rowhead span {
+    font-weight: bold;
+}
+.Total_header{
+    margin-left: 220px;
+}
+#col_footer>.total{
+    margin-left: 60px;
+}
